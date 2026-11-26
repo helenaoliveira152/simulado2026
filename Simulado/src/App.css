@@ -56,7 +56,7 @@ body {
 .search-bar {
   flex: 1;
   height: 42px;
-  padding: 0 14px;
+  padding: 14px;
   background-color: var(--branco);
   border: 1px solid var(--borda);
   border-radius: 12px;
@@ -88,7 +88,6 @@ body {
 
 .chips {
   display: flex;
-  flex-wrap: wrap;
   gap: 8px;
 }
 
@@ -295,15 +294,4 @@ body {
 .rodape a {
   color: var(--primaria);
   font-weight: 700;
-}
-
-@media (max-width: 400px) {
-  .clima-corpo {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .previsao-grade {
-    grid-template-columns: repeat(3, 1fr);
-  }
 }

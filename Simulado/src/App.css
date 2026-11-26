@@ -26,7 +26,6 @@ body {
   color: var(--texto);
 }
 
-/* ---------- Cabeçalho ---------- */
 .primeira {
   width: 100%;
   display: flex;
@@ -54,7 +53,6 @@ body {
   color: var(--suave);
 }
 
-/* ---------- Busca ---------- */
 .search-bar {
   flex: 1;
   height: 42px;
@@ -88,7 +86,6 @@ body {
   background-color: var(--primaria-hover);
 }
 
-/* ---------- Chips de cidades ---------- */
 .chips {
   display: flex;
   flex-wrap: wrap;
@@ -111,7 +108,6 @@ body {
   color: var(--primaria);
 }
 
-/* ---------- Clima atual (card escuro) ---------- */
 .clima-atual {
   background-color: var(--escuro);
   color: #ffffff;
@@ -208,7 +204,6 @@ body {
   color: #ffffff;
 }
 
-/* ---------- Previsão (card branco) ---------- */
 .previsao {
   background-color: var(--branco);
   border-radius: 20px;
@@ -284,7 +279,6 @@ body {
   height: 10px;
 }
 
-/* ---------- Mensagem / rodapé ---------- */
 .sem-resultado {
   text-align: center;
   font-size: 13px;
@@ -303,7 +297,6 @@ body {
   font-weight: 700;
 }
 
-/* ---------- Telas bem pequenas ---------- */
 @media (max-width: 400px) {
   .clima-corpo {
     flex-direction: column;

@@ -183,7 +183,6 @@ function App() {
       <footer className='rodape'>
         Sol Chuva • Dados de clima por{' '}
         <a href="https://open-meteo.com" target="_blank" rel="noreferrer">Open-Meteo</a>
-        {' '}• Copyright-2024
       </footer>
     </div>
   )
